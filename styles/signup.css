@@ -83,7 +83,7 @@ li, a, button{
     position: absolute;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
-    padding: 70px 30px;
+    padding: 50px 30px;
     opacity: .7;
     margin-top: 60px;
 }
@@ -98,9 +98,9 @@ li, a, button{
     
 }
 
-.profile h1{
+.loginbox h1{
     margin: 0;
-    padding: 0 0 20px;
+    padding: 5px;
     text-align: center;
     font-size: 22px;
 }
@@ -112,7 +112,7 @@ li, a, button{
 
 .loginbox input{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .loginbox input[type="text"], input[type="password"]{
@@ -136,7 +136,7 @@ li, a, button{
     
 }
 
-.loginbox input[type="submit"];hover{
+.loginbox input[type="submit"]:hover{
     cursor: pointer;
     background: #ffc107;
     color: #000;
